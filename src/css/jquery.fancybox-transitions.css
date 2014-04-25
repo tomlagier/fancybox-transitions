@@ -1,3 +1,13 @@
+/**
+ * name:        FancyBox Transitions
+ * file:        jquery.fancybox-transitions.css
+ * version:     0.1
+ * author:      Thomas Lagier
+ * description: Adds CSS3 open/close transitions for FancyBox 2.
+ * license:     MIT
+ * date: 		April 25, 2014
+ */
+
 /* Effect 1: Fade in and scale up */
 .fadescale{
 	-webkit-transform: scale(0.7);

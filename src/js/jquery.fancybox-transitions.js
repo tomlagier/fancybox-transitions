@@ -1,9 +1,11 @@
 /**
  * name:        FancyBox Transitions
+ * file:        jquery.fancybox-transitions.js
  * version:     0.1
  * author:      Thomas Lagier
  * description: Adds CSS3 open/close transitions for FancyBox 2.
  * license:     MIT
+ * date:        April 25, 2014
  */
 
 (function ($, F) {
@@ -35,6 +37,7 @@
         });
     };
 
+    //Super scale
     F.transitions.superscaleIn = function() {
 
         F.wrap.addClass('superscale');
@@ -58,6 +61,7 @@
 
     }
 
+    //Fade and scale
     F.transitions.fadescaleIn = function() {
 
         F.wrap.addClass('fadescale');
@@ -81,6 +85,7 @@
 
     }
 
+    //Slide in from right
     F.transitions.sliderightIn = function() {
 
         F.wrap.addClass('slideright');
@@ -104,6 +109,7 @@
 
     }
 
+    //Slide in from bottom
     F.transitions.slidebottomIn = function() {
 
         F.wrap.addClass('slidebottom');
@@ -127,29 +133,7 @@
 
     }
 
-    F.transitions.slidebottomIn = function() {
-
-        F.wrap.addClass('slidebottom');
-
-        setTimeout(function(){
-            F.wrap.addClass('slidebottom-transitions');
-            F.wrap.addClass('show');
-            F._afterZoomIn();
-        });
-
-    }
-
-    F.transitions.slidebottomOut = function() {
-        
-        F.wrap.removeClass('show');
-
-        setTimeout(function(){
-            F.wrap.removeClass('slidebottom slidebottom-transitions');
-            F._afterZoomOut();
-        }, 300);
-
-    }
-
+    //Newspaper twirl
     F.transitions.newspaperIn = function() {
 
         F.wrap.addClass('newspaper');
@@ -173,6 +157,7 @@
 
     }
 
+    //Fall
     F.transitions.fallIn = function() {
 
         F.wrap.addClass('fall');
@@ -195,6 +180,7 @@
 
     }
 
+    //Fall from the side
     F.transitions.sidefallIn = function() {
 
         F.wrap.addClass('sidefall');
@@ -217,6 +203,7 @@
 
     }
 
+    //Another drop in, slightly faster
     F.transitions.stickyupIn = function() {
 
         F.wrap.addClass('stickyup');
@@ -239,6 +226,7 @@
 
     }
 
+    //3D horizontal flip
     F.transitions.horizontalflipIn = function() {
 
         F.wrap.addClass('horizflip');
@@ -261,6 +249,7 @@
 
     }
 
+    //3D vertical flip
     F.transitions.verticalflipIn = function() {
 
         F.wrap.addClass('vertflip');
@@ -283,6 +272,7 @@
 
     }
 
+    //3D Sign
     F.transitions.signIn = function() {
 
         F.wrap.addClass('sign');
@@ -305,6 +295,7 @@
 
     }
 
+    //3D Slit
     F.transitions.slitIn = function() {
 
         F.wrap.addClass('slit');
@@ -327,6 +318,7 @@
 
     }
 
+    //3D rotate bottom
     F.transitions.rotatebottomIn = function() {
 
         F.wrap.addClass('rotatebottom');
@@ -349,6 +341,7 @@
 
     }
 
+    //3D rotate left
     F.transitions.rotateleftIn = function() {
 
         F.wrap.addClass('rotateleft');
@@ -371,6 +364,7 @@
 
     }
 
+    //Blur
     F.transitions.blurIn = function() {
 
         F.wrap.siblings().not('.fancybox-wrap').not('.fancybox-overlay').addClass('blur-overlay');

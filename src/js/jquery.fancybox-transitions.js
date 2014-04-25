@@ -1,3 +1,11 @@
+/**
+ * name:        FancyBox Transitions
+ * version:     0.1
+ * author:      Thomas Lagier
+ * description: Adds CSS3 open/close transitions for FancyBox 2.
+ * license:     MIT
+ */
+
 (function ($, F) {
     
     // Opening animation - fly from the top

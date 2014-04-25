@@ -39,22 +39,22 @@ Then, simply pass any of the new transitions into the fancybox initialization as
 	});
 </pre>
 
-Included transitions
+Included transitions (with both 'In' and 'Out' variants)
 --------------------
 
-1. 	Drop in
-2.  Fade in and scale up
-3.  Slide in from the right
-4.  Slide in from the bottom
-5.  Newspaper (twirl in)
-6.  Fall
-7.  Fall from the side
-8.  Slide from the top
-9.  Horizontal 3D flip
-10. Vertical 3D flip
-11. 3D swinging sign
-12. Super scaled!
-13. 3D growing slit
-14. 3D rotate from bottom
-15. 3D rotate from left
-16. Blur
+1. 	Drop in (<code>'drop'</code>)
+2.  Fade in and scale up (<code>'fadescale'</code>)
+3.  Slide in from the right (<code>'slideright'</code>)
+4.  Slide in from the bottom (<code>'slidebottom'</code>)
+5.  Newspaper (twirl in) (<code>'newspaper'</code>)
+6.  Fall (<code>'fall'</code>)
+7.  Fall from the side (<code>'fallside'</code>)
+8.  Slide from the top (<code>'stickyup'</code>)
+9.  Horizontal 3D flip (<code>'horizontalflip'</code>)
+10. Vertical 3D flip (<code>'verticalflip'</code>)
+11. 3D swinging sign (<code>'sign'</code>)
+12. Super scaled! (<code>'superscaled'</code>)
+13. 3D growing slit (<code>'slit'</code>)
+14. 3D rotate from bottom (<code>'rotatebottom'</code>)
+15. 3D rotate from left (<code>'rotateleft'</code>)
+16. Blur (<code>'blur'</code>)
